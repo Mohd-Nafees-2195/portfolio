@@ -4,6 +4,7 @@ import BgColor from './BgColor'
 export default function Hero() {
 
     return (
+        <>
         <section className='min-h-screen bg-slate-950 text-white flex items-center'>
             <BgColor
                 top="-100px"
@@ -46,5 +47,6 @@ export default function Hero() {
                 color="bg-white/30"
             />
         </section>
+        </>
     )
 }
