@@ -7,12 +7,12 @@ const App=()=> {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className="w-full overflow-x-clip">
       <Toaster/>
       <Routes>
         <Route path='/' element={<Home/>}/>
       </Routes>
-    </>
+    </div>
   )
 }
 

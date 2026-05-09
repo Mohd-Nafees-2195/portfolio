@@ -38,19 +38,6 @@ export default function Experience() {
                                     </li>
                                 ))}
                             </ul>
-
-                            {/* {project.links.map((data, ind) => (
-                                <a
-                                    key={ind}
-                                    href={data.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 mt-6 ml-2 px-5 py-3 rounded-2xl bg-cyan-500 text-slate-950 font-semibold shadow-lg hover:bg-cyan-400 hover:-translate-y-1 transition duration-300"
-                                >
-                                    {data.name} →
-                                </a>
-                            ))} */}
-                            {/* <button className='mt-6 text-cyan-400' onClick={handleClick}>View Project →</button> */}
                         </div>
                     ))}
                 </div>

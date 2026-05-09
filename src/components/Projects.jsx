@@ -86,7 +86,6 @@ export default function Projects() {
                                     {data.name} →
                                 </a>
                             ))}
-                            {/* <button className='mt-6 text-cyan-400' onClick={handleClick}>View Project →</button> */}
                         </div>
                     ))}
                 </div>

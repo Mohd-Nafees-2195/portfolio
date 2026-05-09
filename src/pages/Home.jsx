@@ -11,7 +11,7 @@ import Experience from "../components/Experience";
 const Home=()=>{
     return (
         <>
-          <div className="w-full overflow-x-hidden">
+          <div className="w-full overflow-x-clip">
             <Navbar />
           <Hero />
           <About />
