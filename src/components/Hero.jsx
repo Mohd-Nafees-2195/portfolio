@@ -8,10 +8,10 @@ export default function Hero() {
         <section className='min-h-screen bg-slate-950 text-white flex items-center'>
            
             <BgColor
-                bottom="100px"
-                left="100px"
-                size="700px"
-                color="bg-blue-500/30 animate-pulse"
+                bottom="50px"
+                left="50px"
+                size="200px"
+                color="bg-blue-500 animate-pulse"
             />
             <div className='max-w-6xl mx-auto px-6 grid md:grid-cols-1 gap-10 items-center'>
                 <div>
@@ -26,10 +26,10 @@ export default function Hero() {
 
             </div>
             <BgColor
-                bottom="100px"
-                left="100px"
-                size="700px"
-                color="bg-green-500/30 animate-pulse"
+                bottom="50px"
+                left="50px"
+                size="200px"
+                color="bg-green-500 animate-pulse"
             />
         </section>
         </>
