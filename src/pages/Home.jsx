@@ -11,7 +11,8 @@ import Experience from "../components/Experience";
 const Home=()=>{
     return (
         <>
-          <Navbar />
+          <div className="w-full overflow-x-hidden">
+            <Navbar />
           <Hero />
           <About />
           <Experience />
@@ -19,6 +20,7 @@ const Home=()=>{
           <Skills />
           <Contact />
           <Footer />
+          </div>
         </>
     );
 }

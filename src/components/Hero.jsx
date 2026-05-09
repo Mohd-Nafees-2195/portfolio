@@ -9,8 +9,8 @@ export default function Hero() {
             <BgColor
                 top="-100px"
                 left="-100px"
-                size="500px"
-                color="bg-blue-500/30"
+                size="900px"
+                color="bg-blue-500/10"
             />
             <div className='max-w-6xl mx-auto px-6 grid md:grid-cols-1 gap-10 items-center'>
                 <div>
@@ -43,8 +43,8 @@ export default function Hero() {
             <BgColor
                 bottom="-200px"
                 right="-200px"
-                size="400px"
-                color="bg-white/30"
+                size="900px"
+                color="bg-blue-500/30"
             />
         </section>
         </>
